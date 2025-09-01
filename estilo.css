@@ -53,6 +53,36 @@ nav {
     background-color: #eee;
 }
 
+.menu-lateral {
+    border: .1rem solid blue;
+}
+
+li {
+    border: 1rem solid red;
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+.opcao{
+    display: flex;
+}
+.icone-inical{
+    border: .1rem solid black;
+    margin-right: .3rem;
+}
+
+.rotulo{
+    border: .1rem solid black;
+    flex: 1;
+}
+
+.icone-final{
+    border: black;
+    margin-left: .3rem;
+}
+
 main {
     /* border: .1rem solid #e6088d; */
     flex: 1;
