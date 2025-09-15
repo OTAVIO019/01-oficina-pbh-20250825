@@ -1,0 +1,74 @@
+* {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+html {
+    /* border: .1rem solid red; */
+}
+
+body {
+    /* border: .1rem solid #4000ff; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    /* border: .1rem solid #00ff48; */
+    height: 4rem;
+    background-color: #252323;
+    color: #eee;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.logo {
+    border: .1rem solid blue;
+    padding: .7rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: blue;
+    border-radius: 100%;
+    font-weight: bold;
+    margin-right: .7rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.titulo{
+    flex: 1;
+    /*border: .1rem solid white;*/
+}
+
+.menu-hamburguer{
+    /* border: .1rem solid red; */
+    border-radius: 100%;
+    width: .8rem;
+    height: .8rem;
+    padding: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #464646;
+
+}
+
+.menu-hamburguer i {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+
+.menu-hamburguer:hover i {
+    color: #eee;
+}
+
+.menu-hamburguer i:hover{
+    color: white;
+}
