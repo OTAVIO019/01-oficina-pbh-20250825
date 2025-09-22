@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <script src = "bd.js"> </script>
+    <script src = "./bd.js"> </script> 
+    <script src = "./login.js"></script>
 </head>
 <body>
-    <form action="">
+    <form>
         <input id = "email" type="text" placeholder="informe seu e-mail">
-        <input type="text" type = "password" placeholder="informa sua senha">
-        <button>Enter</button>
+        <input id = "senha"  type = "password" placeholder="informa sua senha">
+        <button onclick="verificarCredenciais(); return false;">Entrar</button>
     </form>
 </body>
 </html>
